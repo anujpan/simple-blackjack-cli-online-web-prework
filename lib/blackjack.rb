@@ -37,7 +37,7 @@ def hit?
   elsif get_user_input == s
     end_game(card_total)
   else
-    
+    invalid_command
   end
 end
 
