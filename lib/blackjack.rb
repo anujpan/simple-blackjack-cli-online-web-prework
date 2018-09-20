@@ -34,11 +34,8 @@ def hit?(card_total)
   
   if input == "h"
     card_total += deal_card
-  elsif input == "s" && card_total == 21
-    puts "You Win!!"
-  elsif input == "s" && card_total < 21
-    puts "Live a little"
-    card_total += deal_card
+  elsif input == "s"
+    card_total
   else
     invalid_command
     prompt_user
