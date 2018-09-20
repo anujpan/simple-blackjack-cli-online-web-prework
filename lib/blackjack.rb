@@ -37,7 +37,8 @@ def hit?(card_total)
   elsif input == "s" && card_total == 21
     puts "You Win!!"
   elsif input == "s" && card_total < 21
-    puts "You sure?"
+    puts "Live a little"
+    card_total += deal_card
   else
     invalid_command
     prompt_user
