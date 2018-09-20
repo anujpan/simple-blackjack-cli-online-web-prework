@@ -13,7 +13,7 @@ end
 def prompt_user
   puts "Type 'h' to hit or 's' to stay"
   prompt = gets
-  prompt
+  puts prompt
 end
 
 def get_user_input
