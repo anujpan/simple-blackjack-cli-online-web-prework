@@ -56,7 +56,6 @@ def runner
   
   if score < 21
     hit?(score)
-    
   elsif score == 21
     puts = "You win"
     
