@@ -55,7 +55,7 @@ def runner
   score = initial_round
   
   if score < 21
-    hit?(score)
+    score = hit?(score)
   else
     puts end_game(score)
   end
