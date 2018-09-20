@@ -35,7 +35,7 @@ def hit?
   if get_user_input == h 
     deal_card
   else
-    
+    end_game(card_total)
   end
 end
 
