@@ -57,8 +57,6 @@ def runner
   if score < 21
     score = hit?(score)
     display_card_total(score)
-  elsif score == 21
-    puts "you win"
   else
     puts end_game(score)
   end
