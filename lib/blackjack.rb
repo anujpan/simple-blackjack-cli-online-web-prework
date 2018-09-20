@@ -58,7 +58,6 @@ def runner
     hit?(score)
   elsif score == 21
     puts = "You win"
-    
   else
     puts end_game(score)
   end
