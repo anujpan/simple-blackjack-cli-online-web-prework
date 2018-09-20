@@ -56,5 +56,6 @@ def runner
   
   if score < 21
     hit?
+  end
 end
     
