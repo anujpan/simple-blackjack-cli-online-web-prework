@@ -52,6 +52,9 @@ end
 
 def runner
   welcome
-  initial_round
+  score = initial_round
+  
+  if score < 21
+    hit?
 end
     
