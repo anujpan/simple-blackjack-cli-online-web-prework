@@ -34,8 +34,8 @@ def hit?(card_total)
   
   if input == "h"
     card_total += deal_card
-  elsif input == "s"
-    card_total
+  elsif input == "s" || card_total == 21
+    puts "You Win!!"
   else
     invalid_command
     prompt_user
@@ -58,6 +58,7 @@ def runner
     score = hit?(score)
     display_card_total(score)
   end
+  
   puts end_game(score)
 end
     
