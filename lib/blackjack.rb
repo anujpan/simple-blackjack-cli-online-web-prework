@@ -53,5 +53,6 @@ end
 def runner
   welcome
   deal_card
+  display_card_total
 end
     
