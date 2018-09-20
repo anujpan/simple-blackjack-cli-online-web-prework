@@ -32,9 +32,9 @@ def hit?
   prompt_user
   x = get_user_input
   
-  if get_user_input == h 
+  if x == h 
     card_total += deal_card
-  elsif get_user_input == s
+  elsif x == s
     end_game(card_total)
   else
     invalid_command
